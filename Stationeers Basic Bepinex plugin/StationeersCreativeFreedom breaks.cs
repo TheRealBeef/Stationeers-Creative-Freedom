@@ -48,7 +48,7 @@ namespace StationeersCreativeFreedom
         [UsedImplicitly]//dunno what is for, something for simpler replacing of the field values.
         private static void Postfix(Structure __instance)
         {
-            if (WorldManager.Instance.GameMode == GameMode.Creative)
+            if (WorldManager.Instance.GameMode == GameMode.Survival)
             {
                 __instance.RotationAxis = RotationAxis.All; //thanks for Kamuchi for idea of using the named enumerator values
                 __instance.AllowedRotations = AllowedRotations.All;
