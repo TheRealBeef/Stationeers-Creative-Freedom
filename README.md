@@ -1,3 +1,8 @@
+
+# Stationeers-Creative-Freedom-Survival-Edit
+Takes a few of the features of placement and enables them in Survival mode, to allow you a bit more flexibility when designing your base. It's quite literally just changing some of the lines from checking for "Creative" to checking for "Survival".
+
+
 # Stationeers-Creative-Freedom
 Break the limits of creativity!
 My first attempt for hardmodding the Unity game.
