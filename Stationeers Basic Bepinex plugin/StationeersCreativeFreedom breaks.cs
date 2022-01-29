@@ -79,7 +79,7 @@ namespace StationeersCreativeFreedom
     {
         private static void Postfix(ref bool __result)
         {
-            if (WorldManager.Instance.GameMode == GameMode.Creative)
+            if (WorldManager.Instance.GameMode == GameMode.Survival)
             { __result = true; }
         }
     }
@@ -89,7 +89,7 @@ namespace StationeersCreativeFreedom
     {
         private static bool Prefix()
         {
-            if (WorldManager.Instance.GameMode == GameMode.Creative)
+            if (WorldManager.Instance.GameMode == GameMode.Survival)
             { return false; }
             return true;
         }
@@ -100,7 +100,7 @@ namespace StationeersCreativeFreedom
     {
         private static void Postfix(ref bool __result)
         {
-            if (WorldManager.Instance.GameMode == GameMode.Creative)
+            if (WorldManager.Instance.GameMode == GameMode.Survival)
             { __result = true; }
         }
     }
@@ -110,7 +110,7 @@ namespace StationeersCreativeFreedom
     {
         private static void Postfix(ref bool __result)
         {
-            if (WorldManager.Instance.GameMode == GameMode.Creative)
+            if (WorldManager.Instance.GameMode == GameMode.Survival)
             { __result = true; }
         }
     }
@@ -130,7 +130,7 @@ namespace StationeersCreativeFreedom
     {
         private static void Postfix(ref bool __result)
         {
-            if (WorldManager.Instance.GameMode == GameMode.Creative)
+            if (WorldManager.Instance.GameMode == GameMode.Survival)
             { __result = true; }
         }
     }
@@ -142,7 +142,7 @@ namespace StationeersCreativeFreedom
     {
         private static void Postfix(ref bool __result)
         {
-            if (WorldManager.Instance.GameMode == GameMode.Creative)
+            if (WorldManager.Instance.GameMode == GameMode.Survival)
             { __result = true; } //evading of CheckSidesBlocked
         }
     }
