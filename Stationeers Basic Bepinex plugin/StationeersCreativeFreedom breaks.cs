@@ -45,7 +45,7 @@ namespace StationeersCreativeFreedom
     [HarmonyPatch(typeof(Structure), "Awake")]
     internal class Structure_Awake_Patch
     {
-        [UsedImplicitly]//dunno what is for, something for simpler replacing of the field values.
+     //   [UsedImplicitly]//dunno what is for, something for simpler replacing of the field values.
         private static void Postfix(Structure __instance)
         {
             if (WorldManager.Instance.GameMode == GameMode.Survival)
